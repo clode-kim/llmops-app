@@ -25,5 +25,5 @@ variable "aks_node_count" {
 variable "aks_node_vm_size" {
   description = "AKS 노드 VM 크기"
   type        = string
-  default     = "Standard_D2_v2"
+  default     = "Standard_B2s_v2"
 }
