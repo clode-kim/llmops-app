@@ -1,0 +1,14 @@
+# Terraform 자동 생성 파일 (각 PC에서 terraform init으로 자동 생성됨)
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state 파일 (Blob Storage에 저장되니까 로컬엔 필요없음)
+*.tfstate
+*.tfstate.backup
+
+# 민감한 정보 (비밀번호 등)
+terraform.tfvars
+
+# OS 자동 생성 파일
+.DS_Store
+Thumbs.db
