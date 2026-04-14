@@ -23,7 +23,7 @@ resource "azurerm_linux_virtual_machine" "jenkins" {
   name                = "${var.project_name}-jenkins-vm"
   location            = var.location
   resource_group_name = var.resource_group_name
-  size                = "Standard_B2s"
+  size                = "Standard_B2s_v2"
   admin_username      = "azureuser"
 
   network_interface_ids = [
